@@ -1,0 +1,13 @@
+{
+  "name": "paypal-webhook",
+  "version": "1.0.0",
+  "description": "Webhook para recibir pagos de PayPal y notificarlos en Discord",
+  "main": "PayPal.js",
+  "scripts": {
+    "start": "node PayPal.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.3.5"
+  }
+}
